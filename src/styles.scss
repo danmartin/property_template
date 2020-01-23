@@ -1,0 +1,171 @@
+.blurb {
+    text-align:left;
+    font-size:1.5em
+}
+.blurby {
+    font-size:1.2em;
+    font-weight:300;
+}
+.open-hold {
+    .opens {
+        padding:1em;
+        border: solid 4px #666;
+        max-width: 80%;
+        margin:auto;
+    }
+}
+
+.social {
+    font-size:2rem;
+    a {
+        color: rgb(141, 139, 133);
+        margin:0.25rem;
+    }
+    a.facebook{
+        &:hover, &active {
+            color:#3b5998;
+        }
+    }
+    a.twitter{
+        &:hover, &active {
+            color:#38A1F3;
+        }
+    }
+    a.instagram{
+        &:hover, &active {
+            color:#231F20;
+        }
+    }
+    a.linkedin{
+        &:hover, &active {
+            color:#0077B5;
+        }
+    }
+}
+
+figure {
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+.contacts {
+    color: rgb(168, 167, 164);
+    font-size: 1.5rem;
+    font-weight:500;
+    i {
+        font-size: 1.2em;
+        margin-right:1rem;
+    }
+    a {
+        color: rgb(168, 167, 164);
+    }
+}
+.status_overlay{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.status_overlay h2 {
+    display: inline-block;
+    color: #fff;
+    font-size: 3.5rem;
+    font-weight: 800;
+    padding: .5rem 4rem;
+    background-color: #f00;
+    transform: rotate(-35deg);
+    box-shadow: 3px 3px 1em #080808;
+}
+.icon-holder {
+    padding:0px;
+    margin:0px;
+    font-size:4em;
+    i {color:#666;}
+}
+iframe {
+    border:0
+}
+.overlay{
+    position:fixed;
+    width:100%;
+    height:100%;
+    padding:3%;
+    top: 0;
+    left: 0;
+    background: rgba(#000, 0.85);
+    z-index:99999;
+    vertical-align: middle;
+    .helper {
+        height: 100%;
+        width: 100%;
+        vertical-align: middle;
+        text-align:center;
+        img {
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+            max-width: 95%;
+            margin: 0 auto;
+            max-height: 95%;
+        }
+    }
+    .close{
+        width:40px;
+        height:40px;
+        position:absolute;
+        right:20px;
+        top:20px;
+        overflow:hidden;
+        border:none;
+        background: url(/images/cross.png) no-repeat center center;
+        text-indent:200%;
+        outline:none;
+        color:transparent;
+    }
+    a.right-arrow {
+        position:absolute;
+        right:20px;
+        top:50%;
+        transform: translateY(-50%);
+        overflow:hidden;
+        color:#fff;
+        font-size:6rem;
+        z-index:999999;
+    }
+    a.left-arrow {
+        position:absolute;
+        left:20px;
+        top:50%;
+        transform: translateY(-50%);
+        overflow:hidden;
+        color:#fff;
+        font-size:6rem;
+        z-index:999999;
+    }
+} 
+
+
+footer {
+ background-color:#333;
+ padding-top:2em;
+ margin-top:2em;
+
+}
+
+@media (max-width: 768px) {
+    .status_overlay h2 {
+        font-size: 1.5rem;
+        font-weight: 800;
+    }
+    .contacts {
+        font-size: 1.4rem;
+    }
+
+    .blurby {
+        padding: 1em;
+        font-size:.9em;
+        font-weight:300;
+    }
+}

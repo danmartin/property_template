@@ -520,7 +520,7 @@ h1, h2, h3, h4, h5, h6 {
 .masthead {
   height: 100vh;
   min-height: 500px;
-  background-image: url('../../image/title-1.jpg');
+  background-image: url('/images/title-1.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

@@ -38,7 +38,7 @@ class PrimaryInfo extends React.Component {
                             <i className="fas fa-bath"></i>
                         </div>
                         <div className="my-0">
-                            <p className="lead">{propertyData.property.baths} bath</p>
+                            <p className="lead">{propertyData.property.baths} Bath</p>
                         </div>
                     </div>
                 </div>

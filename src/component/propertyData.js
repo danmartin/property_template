@@ -6,9 +6,9 @@ const propertyData = {
       "email": "aubrey@aubreymartin.com"
     },
     "full_address": {"street": "15232 NW Marianna St", "city": "Portland", "state":"Oregon", "zipcode": "97229"},
-    "display_address": "1269 NE Parkside Dr",
+    "display_address": "15232 NW Marianna St",
     "property": {
-      "listing_price": "$519,888",
+      "listing_price": "$509,888",
       "bedrooms": "4",
       "baths": "3 Full 2 Partial",
       "sq_feet": "2466",
@@ -33,7 +33,7 @@ const propertyData = {
             "lng": "-123.131938"
         },
         "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2793.027729033213!2d-122.83600968443899!3d45.569880979102294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5495062304e35bd5%3A0xd7efb024928aa95e!2s15232%20NW%20Marianna%20St%2C%20Portland%2C%20OR%2097229!5e0!3m2!1sen!2sus!4v1590721949551!5m2!1sen!2sus",
-        "youtube":"4I4deljxnik"
+        "youtube":"F8CbSgO84kQ"
     }
   }
 

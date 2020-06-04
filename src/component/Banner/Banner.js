@@ -13,7 +13,7 @@ class Banner extends Component {
                             <div className="col-8 h-100">
                                 <div className="banner_details text-right">
                                     <h1  className="font-weight-bold">{propertyData.property.listing_price}</h1>
-                                    <ul className="list-unstyled font-weight-light shadow">
+                                    <ul className="list-unstyled font-weight-light">
                                         <li className="p-1">{propertyData.property.bedrooms} Bedrooms</li>
                                         <li className="p-1">{propertyData.property.baths} Bathrooms</li>
                                         <li className="p-1">{propertyData.property.sq_feet} Sq Feet</li>

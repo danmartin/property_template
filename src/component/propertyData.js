@@ -8,7 +8,7 @@ const propertyData = {
     "full_address": {"street": "15232 NW Marianna St", "city": "Portland", "state":"Oregon", "zipcode": "97229"},
     "display_address": "15232 NW Marianna St",
     "property": {
-      "listing_price": "$509,888",
+      "listing_price": "$489,888",
       "bedrooms": "4",
       "baths": "3 Full 2 Partial",
       "sq_feet": "2466",

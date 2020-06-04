@@ -20,7 +20,7 @@ const propertyData = {
 
       ]
     },
-    "image_count": 29,
+    "image_count": 30,
     "opens": [
       {"id": "1", "item": "Friday 1/3 5:00pm-7:00pm"},
       {"id": "2", "item": "Saturday 1/4 1:00pm-3:00pm"},

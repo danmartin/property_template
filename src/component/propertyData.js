@@ -13,7 +13,7 @@ const propertyData = {
       "baths": "3 Full 2 Partial",
       "sq_feet": "2466",
       "lot_size": "1742.4",
-      "rmls": "20559570",
+      "rmls": "20548866",
       "built_in": "2018",
       "blurb": "Like new beautifully upgraded townhouse in Bethany! Light & bright open design. Engineered hardwood floors on main. Spacious living room w/gas fireplace. Large kitchen w/modern white cabinetry, quartz counters, island & stainless appliances. Upgraded carpet & pad upstairs. Master suite w/walk-in closets w/custom closet system by California Closets. Master bath large shower & soaking tub. Garage w/custom storage room. Overlooks THPRD greenspace. Community parks, playgrounds & athletic courts.",
       "ammenities": [

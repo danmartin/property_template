@@ -28,7 +28,7 @@ class Google extends React.Component {
                   title={propertyData.display_address}
                   width="100%" 
                   height="800" 
-                  src="https://my.matterport.com/show/?m=73DLYMztq9s" f
+                  src={"https://my.matterport.com/show/?m="+propertyData.google.matterport} f
                   rameborder="0" allowfullscreen allow="vr">
               </iframe>
             </TabPanel>
